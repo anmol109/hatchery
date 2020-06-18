@@ -6,50 +6,43 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <title>Result Generator</title>
 </head>
-<body>
+<body id="boody">
     <h1>Result Generator</h1>
-    <div class="add-new">
-      <div class="btn btn-primary" onclick="show()">
-        new
-      </div>
-    </div>
+    <div class="container">
+      <button class="button" id="newv">New</button>
+    </div>  
+       
     <!--form for input of subject details, credits and grades-->
-    <div id="inp-cont">
-      <form>
+    <div id="subjectInput">
+    
           <div class="row">
             <div class="col">
-              <input id="name" type="text" class="form-control" placeholder="Subject Name">
+              <input id="sName" type="text" placeholder="Subject Name">
             </div>
             <div class="col">
-              <input id="code" type="text" class="form-control" placeholder="Subject code">
+              <input id="sCode" type="text" placeholder="Subject code">
             </div>
           </div>
           <div class="container">
-              <input type="number" placeholder="credits" min="1">
+              <input id="credits" type="number" placeholder="credits" min="1">
           </div>
-          <button type="submit" onclick="show(); sub();">
-            Submit</button>
-      </form>
+          <button id="subm"> Submit</button>
+      
     </div>
 
-
     <div class="result">
-      <div class="get-result">
-        <div class ="btn btn-primary" onclick="show2(); showresult();">
-          SHOW RESULT
-        </div>
-      </div>
-      <div id="show-result">
-        <div id = "subject-name">
-          subjects :
-        </div>
-        <div id="gpa">
-          GPA : 
-        </div>
+      <div class="container">
+        <button id="result">Show Result</button>
+      </div>  
+      <div id="showResult">
+        <textarea id = "sNameDisp"></textarea>
+        <textarea id="creditsDisp"></textarea>
+        <textarea id="sCodeDisp"></textarea>
       </div>   
     </div>
     <script src="resultGenerator.js"></script> 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-</body>
+    
+  </body>
 </html>

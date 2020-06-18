@@ -5,11 +5,11 @@ h1{
 li{
     color: blueviolet;
 }
-#show-result{
-    display: none;
+#showResult{
+    display: none ;
     padding: 2%;
 }
-#inp-cont{
+#subjectInput{
     display: none;
     padding: 2%;
 }
@@ -18,4 +18,8 @@ li{
 }
 .add-new{
     padding: 5%;
+}
+#boody{
+    background-color: #232323;
+    color: white;
 }
