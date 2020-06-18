@@ -5,3 +5,17 @@ h1{
 li{
     color: blueviolet;
 }
+#show-result{
+    display: none;
+    padding: 2%;
+}
+#inp-cont{
+    display: none;
+    padding: 2%;
+}
+.get-result{
+    padding: 5%;
+}
+.add-new{
+    padding: 5%;
+}
