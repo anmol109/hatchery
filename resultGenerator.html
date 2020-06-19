@@ -9,7 +9,7 @@
 <body id="boody">
     <h1>Result Generator</h1>
     <div class="container">
-      <button class="button" id="newv">New</button>
+      <button class="bttnS" id="newv">New</button>
     </div>  
        
     <!--form for input of subject details, credits and grades-->
@@ -23,21 +23,26 @@
               <input id="sCode" type="text" placeholder="Subject code">
             </div>
           </div>
-          <div class="container">
+          <div class="row">
+            <div class="col">
               <input id="credits" type="number" placeholder="credits" min="1">
+            </div>
+            <div class="col">
+              <input id="grade" type="text" placeholder="GPA GRADE" maxlength="1">  
+            </div>
           </div>
-          <button id="subm"> Submit</button>
-      
+          <button id="subm" class="bttnS"> Submit</button>
     </div>
 
     <div class="result">
       <div class="container">
-        <button id="result">Show Result</button>
+        <button id="result" class="bttnS">Show Result</button>
       </div>  
       <div id="showResult">
-        <textarea id = "sNameDisp"></textarea>
-        <textarea id="creditsDisp"></textarea>
-        <textarea id="sCodeDisp"></textarea>
+        <textarea id = "sNameDisp">Subject Name &#13;&#10;</textarea>
+        <textarea id="creditsDisp">Credits &#13;&#10;</textarea>
+        <textarea id="sCodeDisp">Subject Code &#13;&#10;</textarea>
+        <textarea id="GPADisp">GPA &#13;&#10;</textarea>
       </div>   
     </div>
     <script src="resultGenerator.js"></script> 

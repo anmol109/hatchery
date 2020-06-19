@@ -1,6 +1,10 @@
 h1{
-    color: steelblue;
+    color: white;
     text-transform: capitalize;
+    background-color: steelblue;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
 }
 li{
     color: blueviolet;
@@ -22,4 +26,8 @@ li{
 #boody{
     background-color: #232323;
     color: white;
+}
+.bttns{
+    padding: 5px;
+    background-color: yellowgreen;
 }
