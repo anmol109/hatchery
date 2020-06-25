@@ -1,7 +1,7 @@
 h1{
-    color: white;
+    color: rgb(11, 19, 87);
     text-transform: capitalize;
-    background-color: steelblue;
+    background-image: linear-gradient(rgb(108, 29, 145), rgb(190, 121, 230));
     text-align: center;
     margin: 0 auto;
     padding: 5px;
@@ -14,20 +14,34 @@ li{
     padding: 2%;
 }
 #subjectInput{
+    margin-left: 100px;
     display: none;
     padding: 2%;
 }
-.get-result{
+#showResult{
+    margin-left: 100px;
     padding: 5%;
 }
 .add-new{
     padding: 5%;
 }
 #boody{
-    background-color: #232323;
+    background-image: linear-gradient(rgb(51, 49, 49), black);
     color: white;
 }
-.bttns{
-    padding: 5px;
-    background-color: yellowgreen;
+.bttnS{
+    border-radius: 10%;
+    padding: 6px;
+    margin: 10px;
+    background-color: rgb(101, 233, 145);
+}
+.bttnS:hover{
+    background-color: rgb(19, 172, 70);
+}
+#sName,#sCode,#credits,#grade,#sNameDisp,#creditsDisp,#sCodeDisp,#GPADisp,#GPA{
+    margin: 10px;
+    border-radius: 10%;
+}
+#sNameDisp,#creditsDisp,#sCodeDisp,#GPADisp,#GPA{
+    size: 200px;
 }

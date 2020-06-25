@@ -28,7 +28,7 @@
               <input id="credits" type="number" placeholder="credits" min="1">
             </div>
             <div class="col">
-              <input id="grade" type="text" placeholder="GPA GRADE" maxlength="1">  
+              <input id="grade" type="text" placeholder="GRADE" maxlength="1">  
             </div>
           </div>
           <button id="subm" class="bttnS"> Submit</button>
@@ -39,11 +39,12 @@
         <button id="result" class="bttnS">Show Result</button>
       </div>  
       <div id="showResult">
-        <textarea id = "sNameDisp">Subject Name &#13;&#10;</textarea>
-        <textarea id="creditsDisp">Credits &#13;&#10;</textarea>
-        <textarea id="sCodeDisp">Subject Code &#13;&#10;</textarea>
-        <textarea id="GPADisp">GPA &#13;&#10;</textarea>
-      </div>   
+        <textarea id = "sNameDisp" rows="7" cols="25">Subject Name &#13;&#10;</textarea>
+        <textarea id="creditsDisp" rows="7" cols="20">Credits &#13;&#10;</textarea>
+        <textarea id="sCodeDisp" rows="7" cols="25">Subject Code &#13;&#10;</textarea>
+        <textarea id="GPADisp" rows="7" cols="20">Grade &#13;&#10;</textarea><br>
+        <textarea id="GPA" rows="7" cols="20">GPA &#13;&#10;</textarea>
+      </div> 
     </div>
     <script src="resultGenerator.js"></script> 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
